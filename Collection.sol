@@ -1153,7 +1153,7 @@ contract Collection is ERC721Enumerable, Ownable {
     constructor() ERC721("Net2Dev NFT Collection", "N2D") {}
         // internal
         function _baseURI() internal view virtual override returns (string memory) {
-        return "ipfs://QmUkiWsgWNA9MJFCKabQ9UtEq8GkYnQytjJEi7xdVi6ftj/";
+        return "ipfs://Qmdj8QqicrNXYyjmdfXyLB8JAu3EuNCPnyvo7PM5jnm1cw/";
     }
         // public
 
